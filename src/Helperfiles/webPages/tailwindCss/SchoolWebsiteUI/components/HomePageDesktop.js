@@ -1,5 +1,5 @@
 import React from "react";
-import Img1 from "../assests/Img1.svg";
+import Img1 from "../assests/Img1.png";
 import HomePageShadowBox from "./Layouts/HomePageShadowBox";
 
 const HomePageDesktop = () => {
