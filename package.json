@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@emotion/styled": "^11.11.0",
     "@material/top-app-bar": "^14.0.0",
     "@momentum-ui/react": "^23.27.11",
@@ -22,6 +23,7 @@
     "apexcharts": "^3.44.0",
     "array-move": "^4.0.0",
     "awesome-selector": "^1.0.11",
+    "babel-preset-react-app": "^10.0.1",
     "flowbite-react": "^0.6.4",
     "framer-motion": "^10.16.5",
     "fs": "^0.0.1-security",

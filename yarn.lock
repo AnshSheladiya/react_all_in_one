@@ -134,9 +134,9 @@
     "@jridgewell/trace-mapping" "^0.3.17"
     jsesc "^2.5.1"
 
-"@babel/helper-annotate-as-pure@^7.22.5":
+"@babel/helper-annotate-as-pure@^7.18.6", "@babel/helper-annotate-as-pure@^7.22.5":
   version "7.22.5"
-  resolved "https://registry.npmjs.org/@babel/helper-annotate-as-pure/-/helper-annotate-as-pure-7.22.5.tgz"
+  resolved "https://registry.yarnpkg.com/@babel/helper-annotate-as-pure/-/helper-annotate-as-pure-7.22.5.tgz#e7f06737b197d580a01edf75d97e2c8be99d3882"
   integrity sha512-LvBTxu8bQSQkcyKOU+a1btnNFQ1dMAd0R6PyW3arXes06F6QLWLIrd681bxRPIXlrMGR3XYnW9JyML7dP3qgxg==
   dependencies:
     "@babel/types" "^7.22.5"
@@ -159,9 +159,9 @@
     lru-cache "^5.1.1"
     semver "^6.3.1"
 
-"@babel/helper-create-class-features-plugin@^7.18.6", "@babel/helper-create-class-features-plugin@^7.22.11", "@babel/helper-create-class-features-plugin@^7.22.15", "@babel/helper-create-class-features-plugin@^7.22.5":
+"@babel/helper-create-class-features-plugin@^7.18.6", "@babel/helper-create-class-features-plugin@^7.21.0", "@babel/helper-create-class-features-plugin@^7.22.11", "@babel/helper-create-class-features-plugin@^7.22.15", "@babel/helper-create-class-features-plugin@^7.22.5":
   version "7.22.15"
-  resolved "https://registry.npmjs.org/@babel/helper-create-class-features-plugin/-/helper-create-class-features-plugin-7.22.15.tgz"
+  resolved "https://registry.yarnpkg.com/@babel/helper-create-class-features-plugin/-/helper-create-class-features-plugin-7.22.15.tgz#97a61b385e57fe458496fad19f8e63b63c867de4"
   integrity sha512-jKkwA59IXcvSaiK2UN45kKwSC9o+KuoXsBDvHvU/7BecYIp8GQ2UwrVvFgJASUT+hBnwJx6MhvMCuMzwZZ7jlg==
   dependencies:
     "@babel/helper-annotate-as-pure" "^7.22.5"
@@ -409,6 +409,16 @@
   version "7.21.0-placeholder-for-preset-env.2"
   resolved "https://registry.npmjs.org/@babel/plugin-proposal-private-property-in-object/-/plugin-proposal-private-property-in-object-7.21.0-placeholder-for-preset-env.2.tgz"
   integrity sha512-SOSkfJDddaM7mak6cPEpswyTRnuRltl429hMraQEglW+OkovnCzsiszTmsrlY//qLFjCpQDFRvjdm2wA5pPm9w==
+
+"@babel/plugin-proposal-private-property-in-object@^7.21.11":
+  version "7.21.11"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-private-property-in-object/-/plugin-proposal-private-property-in-object-7.21.11.tgz#69d597086b6760c4126525cfa154f34631ff272c"
+  integrity sha512-0QZ8qP/3RLDVBwBFoWAwCtgcDZJVwA5LUJRZU8x2YFfKNuFq161wK3cuGrALu5yiPu+vzwTAg/sMWVNeWeNyaw==
+  dependencies:
+    "@babel/helper-annotate-as-pure" "^7.18.6"
+    "@babel/helper-create-class-features-plugin" "^7.21.0"
+    "@babel/helper-plugin-utils" "^7.20.2"
+    "@babel/plugin-syntax-private-property-in-object" "^7.14.5"
 
 "@babel/plugin-syntax-async-generators@^7.8.4":
   version "7.8.4"
@@ -1936,6 +1946,11 @@
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
 
+"@juggle/resize-observer@^3.4.0":
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/@juggle/resize-observer/-/resize-observer-3.4.0.tgz#08d6c5e20cf7e4cc02fd181c4b0c225cd31dbb60"
+  integrity sha512-dfLbk+PwWvFzSxwk3n5ySL0hfBog779o8h68wK/7/APo/7cgyWp5jcXockbxdk5kFRkbeXWm4Fbi9FrdN381sA==
+
 "@leichtgewicht/ip-codec@^2.0.1":
   version "2.0.4"
   resolved "https://registry.npmjs.org/@leichtgewicht/ip-codec/-/ip-codec-2.0.4.tgz"
@@ -2497,10 +2512,10 @@
     "@react-spring/shared" "~9.7.3"
     "@react-spring/types" "~9.7.3"
 
-"@remix-run/router@1.12.0":
-  version "1.12.0"
-  resolved "https://registry.npmjs.org/@remix-run/router/-/router-1.12.0.tgz"
-  integrity sha512-2hXv036Bux90e1GXTWSMfNzfDDK8LA8JYEWfyHxzvwdp6GyoWEovKc9cotb3KCKmkdwsIBuFGX7ScTWyiHv7Eg==
+"@remix-run/router@1.13.0":
+  version "1.13.0"
+  resolved "https://registry.yarnpkg.com/@remix-run/router/-/router-1.13.0.tgz#7e29c4ee85176d9c08cb0f4456bff74d092c5065"
+  integrity sha512-5dMOnVnefRsl4uRnAdoWjtVTdh8e6aZqgM4puy9nmEADH72ck+uXwzpJLEKE9Q6F8ZljNewLgmTfkxUrBdv4WA==
 
 "@restart/context@^2.1.4":
   version "2.1.4"
@@ -5867,7 +5882,7 @@ escodegen@^2.0.0:
   optionalDependencies:
     source-map "~0.6.1"
 
-eslint-config-react-app@^7.0.1:
+eslint-config-react-app@^7.0.0, eslint-config-react-app@^7.0.1:
   version "7.0.1"
   resolved "https://registry.npmjs.org/eslint-config-react-app/-/eslint-config-react-app-7.0.1.tgz"
   integrity sha512-K6rNzvkIeHaTd8m/QEh1Zko0KI7BACWkkneSs6s9cKZC/J27X3eZR6Upt1jkmZ/4FK+XUOPPxMEN7+lbUXfSlA==
@@ -10505,19 +10520,6 @@ react-avatar-editor@^13.0.0:
     "@babel/runtime" "^7.12.5"
     prop-types "^15.7.2"
 
-react-awesome-avatar-group@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.npmjs.org/react-awesome-avatar-group/-/react-awesome-avatar-group-1.0.3.tgz"
-  integrity sha512-7td/KQQu6dRYEbxJP5bv8Z0CcWFPu3Psj65r7p2GdTwaNtU/656af2DDLMrli8m+0LC2O1mKGC/Ynv+X13CclA==
-  dependencies:
-    "@testing-library/jest-dom" "^5.16.5"
-    "@testing-library/react" "^13.4.0"
-    "@testing-library/user-event" "^13.5.0"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.4"
-
 react-awesome-tags-input@^1.0.5:
   version "1.0.5"
   resolved "https://registry.npmjs.org/react-awesome-tags-input/-/react-awesome-tags-input-1.0.5.tgz"
@@ -10592,7 +10594,7 @@ react-custom-scroll@^5.0.0:
   resolved "https://registry.npmjs.org/react-custom-scroll/-/react-custom-scroll-5.0.0.tgz"
   integrity sha512-WJ6xdw5lBNScAvYiDJQXtSXktZjaf8K9CMDfS/3UuCTU3MYSr7XSwDnYW1T0ZqxAaOnbvB5U1D922+0ZVVSJ8Q==
 
-react-dev-utils@^12.0.1:
+react-dev-utils@^12.0.0, react-dev-utils@^12.0.1:
   version "12.0.1"
   resolved "https://registry.npmjs.org/react-dev-utils/-/react-dev-utils-12.0.1.tgz"
   integrity sha512-84Ivxmr17KjUupyqzFode6xKhjwuEJDROWKJy/BthkL7Wn6NJ8h4WE6k/exAv6ImS+0oZLRRW5j/aINMHyeGeQ==
@@ -10870,6 +10872,11 @@ react-lorem-ipsum@^1.4.10:
   resolved "https://registry.npmjs.org/react-lorem-ipsum/-/react-lorem-ipsum-1.4.10.tgz"
   integrity sha512-PCEuauLZTGJkm++oxJeUycEgQOBg3qmmD7pn5sUyq9e0OvvNbW32RKQsSgalAYGUIbS91UkDgxvt6iHVAsqYJw==
 
+react-modal-image@^2.6.0:
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/react-modal-image/-/react-modal-image-2.6.0.tgz#24b5963b5a50c029a445d125efb49870738700d5"
+  integrity sha512-NNc1xPKzFAn0VsNMdJ8NXt6c54aL/z0fcoYmw9qn4SBUONdGl+8LOQ0sTfo0wtdzcjLiby/ncloHcAL+UI+wIA==
+
 react-number-format@^5.3.1:
   version "5.3.1"
   resolved "https://registry.npmjs.org/react-number-format/-/react-number-format-5.3.1.tgz"
@@ -10948,13 +10955,13 @@ react-router-dom@^5.2.0:
     tiny-invariant "^1.0.2"
     tiny-warning "^1.0.0"
 
-react-router-dom@^6.19.0:
-  version "6.19.0"
-  resolved "https://registry.npmjs.org/react-router-dom/-/react-router-dom-6.19.0.tgz"
-  integrity sha512-N6dWlcgL2w0U5HZUUqU2wlmOrSb3ighJmtQ438SWbhB1yuLTXQ8yyTBMK3BSvVjp7gBtKurT554nCtMOgxCZmQ==
+react-router-dom@^6.20.0:
+  version "6.20.0"
+  resolved "https://registry.yarnpkg.com/react-router-dom/-/react-router-dom-6.20.0.tgz#7b9527a1e29c7fb90736a5f89d54ca01f40e264b"
+  integrity sha512-CbcKjEyiSVpA6UtCHOIYLUYn/UJfwzp55va4yEfpk7JBN3GPqWfHrdLkAvNCcpXr8QoihcDMuk0dzWZxtlB/mQ==
   dependencies:
-    "@remix-run/router" "1.12.0"
-    react-router "6.19.0"
+    "@remix-run/router" "1.13.0"
+    react-router "6.20.0"
 
 react-router@5.3.4:
   version "5.3.4"
@@ -10971,12 +10978,67 @@ react-router@5.3.4:
     tiny-invariant "^1.0.2"
     tiny-warning "^1.0.0"
 
-react-router@6.19.0:
-  version "6.19.0"
-  resolved "https://registry.npmjs.org/react-router/-/react-router-6.19.0.tgz"
-  integrity sha512-0W63PKCZ7+OuQd7Tm+RbkI8kCLmn4GPjDbX61tWljPxWgqTKlEpeQUwPkT1DRjYhF8KSihK0hQpmhU4uxVMcdw==
+react-router@6.20.0:
+  version "6.20.0"
+  resolved "https://registry.yarnpkg.com/react-router/-/react-router-6.20.0.tgz#4275a3567ecc55f7703073158048db10096bb539"
+  integrity sha512-pVvzsSsgUxxtuNfTHC4IxjATs10UaAtvLGVSA1tbUE4GDaOSU1Esu2xF5nWLz7KPiMuW8BJWuPFdlGYJ7/rW0w==
   dependencies:
-    "@remix-run/router" "1.12.0"
+    "@remix-run/router" "1.13.0"
+
+react-scripts@5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/react-scripts/-/react-scripts-5.0.0.tgz#6547a6d7f8b64364ef95273767466cc577cb4b60"
+  integrity sha512-3i0L2CyIlROz7mxETEdfif6Sfhh9Lfpzi10CtcGs1emDQStmZfWjJbAIMtRD0opVUjQuFWqHZyRZ9PPzKCFxWg==
+  dependencies:
+    "@babel/core" "^7.16.0"
+    "@pmmmwh/react-refresh-webpack-plugin" "^0.5.3"
+    "@svgr/webpack" "^5.5.0"
+    babel-jest "^27.4.2"
+    babel-loader "^8.2.3"
+    babel-plugin-named-asset-import "^0.3.8"
+    babel-preset-react-app "^10.0.1"
+    bfj "^7.0.2"
+    browserslist "^4.18.1"
+    camelcase "^6.2.1"
+    case-sensitive-paths-webpack-plugin "^2.4.0"
+    css-loader "^6.5.1"
+    css-minimizer-webpack-plugin "^3.2.0"
+    dotenv "^10.0.0"
+    dotenv-expand "^5.1.0"
+    eslint "^8.3.0"
+    eslint-config-react-app "^7.0.0"
+    eslint-webpack-plugin "^3.1.1"
+    file-loader "^6.2.0"
+    fs-extra "^10.0.0"
+    html-webpack-plugin "^5.5.0"
+    identity-obj-proxy "^3.0.0"
+    jest "^27.4.3"
+    jest-resolve "^27.4.2"
+    jest-watch-typeahead "^1.0.0"
+    mini-css-extract-plugin "^2.4.5"
+    postcss "^8.4.4"
+    postcss-flexbugs-fixes "^5.0.2"
+    postcss-loader "^6.2.1"
+    postcss-normalize "^10.0.1"
+    postcss-preset-env "^7.0.1"
+    prompts "^2.4.2"
+    react-app-polyfill "^3.0.0"
+    react-dev-utils "^12.0.0"
+    react-refresh "^0.11.0"
+    resolve "^1.20.0"
+    resolve-url-loader "^4.0.0"
+    sass-loader "^12.3.0"
+    semver "^7.3.5"
+    source-map-loader "^3.0.0"
+    style-loader "^3.3.1"
+    tailwindcss "^3.0.2"
+    terser-webpack-plugin "^5.2.5"
+    webpack "^5.64.4"
+    webpack-dev-server "^4.6.0"
+    webpack-manifest-plugin "^4.0.2"
+    workbox-webpack-plugin "^6.4.1"
+  optionalDependencies:
+    fsevents "^2.3.2"
 
 react-scripts@5.0.1:
   version "5.0.1"
@@ -11095,6 +11157,13 @@ react-spaces@^0.4.1:
   dependencies:
     css-element-queries "^1.2.1"
     prop-types "^15.7.2"
+
+react-sparkle@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/react-sparkle/-/react-sparkle-2.0.0.tgz#1db8cff4113ef33ac4de63a5df1ff64d454522ea"
+  integrity sha512-Gy0us35SH25HeDa4t6Gu8oM4raAH4EKBzArENOoysgVl+jB5XCjsYRJhRF8Bfi8fdsVPjkNLNh1R6VYgGsInoA==
+  dependencies:
+    "@juggle/resize-observer" "^3.4.0"
 
 react-sparklines@^1.7.0:
   version "1.7.0"
